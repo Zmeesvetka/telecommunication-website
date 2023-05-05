@@ -18,11 +18,11 @@ module.exports = {
           colors: {
               'companyLightGray': '#f6f6f6', //old bg
               'companyBlue': {
-                  DEFAULT: '#6bbff1', // companyBlue-500
-                  100: '#f1f7fc', // for bg & button
-                  150: '#e9f0f4', // for button hover
-                  500: '#6bbff1', // for icons
-                  600: '#09a2ff', // for headers
+                  DEFAULT: '#0b1d5c',
+                  100: '#36c9', // for bg & button
+                  150: '#36cc', // for button hover
+                  500: '#0b1d5c', // for icons
+                  600: '#0c0f2e', // for headers
                   700: '#3b99e0',
                   800: '#0d6efd', // old text button                    
               },
@@ -31,8 +31,8 @@ module.exports = {
                   200: '#df0000', // for text & border 
               },
               'bottomBlack': {
-                  DEFAULT: '#2b2f31', // bg bottom
-                  100: '#212529', // bg the bottest
+                  DEFAULT: '#020919', // bg bottom
+                  100: '#00020b', // bg the bottest
               },
           },
           spacing: {

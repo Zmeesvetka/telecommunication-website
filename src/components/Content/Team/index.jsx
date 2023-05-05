@@ -20,7 +20,8 @@ export default class Team extends React.Component {
                             </div>
                         </div>
                         <div className="flex sm:w-1/2 px-4 lg:w-1/3 pt-2 grow">
-                            <div className="grow flex flex-col px-10 items-right justify-center rounded border border-1 border-gray-300 shadow-lg shadow-gray-400/30">
+                            <div className="grow flex flex-col px-10 items-center justify-center rounded border border-1 border-gray-300 shadow-lg shadow-gray-400/30">
+                                <div className='flex flex-col items-right'>
                                     <h4 className="font-semibold mb-[5px]">Katerina Aronson</h4>
                                     <p className="mb-[20px]">Leader<br/></p>
                                     <h4 className="font-semibold mb-[5px]">Correspondence address</h4>
@@ -36,6 +37,7 @@ export default class Team extends React.Component {
                                             <FiGithub className="text-companyBlue text-lg"/>
                                         </a>
                                     </div>
+                                </div>
                             </div>
                         </div>
                     </div>
