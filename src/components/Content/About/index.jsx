@@ -12,9 +12,9 @@ export default class About extends React.Component {
                         <p className="text-3xl font-medium text-companyBlue-600 text-center">About Us</p>
                     </div>
                     <div className="flex flex-wrap items-center">
-                        <div className="md:flex-1 bg-white md:mr-3">
+                        <div className="md:flex-1 md:mr-3">
                             <img src={aboutImg}
-                                 className="max-w-full h-auto border border-solid border-gray-200 rounded p-1"
+                                 className="max-w-full h-auto border border-1 shadow-lg shadow-gray-400/30 rounded"
                                  alt="About Us"/>
                         </div>
                         <div className="md:flex-1 md:ml-3">
